@@ -1,5 +1,5 @@
-const textarea = document.querySelector("textarea"); //صدا کردن ریختن در متغیر
-fileNameInput = document.querySelector(".file-name input"); //صدا کردن ریختن در متغیر
+const textarea = document.querySelector("textarea"); //صدا کردن  و ریختن در متغیر
+fileNameInput = document.querySelector(".file-name input"); //صدا کردن و ریختن در متغیر
 selectMenu = document.querySelector(".save-as select"); //صدا کردن ریختن در متغیر
 savebtn = document.querySelector(".save-btn"); //صدا کردن ریختن در متغیر
 
@@ -17,8 +17,3 @@ savebtn.addEventListener("click", () => {
   textarea.value = ""; //بعد از اینکه کلیک شد مقدار داخل تکست اریا رو خالی میکنه
   fileNameInput.value = ""; // مقدار نام فایل رو خالی میکنه
 });
-
-// selectMenu.addEventListener("change", () => {
-//   let selectedOption = selectMenu.options[selectMenu.selectedIndex].text;
-//   savebtn.innerText = `Save As ${selectedOption.split(" ")[0]}File`;
-// });
