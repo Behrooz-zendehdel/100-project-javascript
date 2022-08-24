@@ -9,9 +9,24 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
     />
-    <link rel="stylesheet" href="" />
+    <link rel="stylesheet" href="../gameWord/style.css" />
   </head>
   <body>
-    <script src=""></script>
+    <div class="wrapper">
+      <h1>Guess the word</h1>
+      <div class="content">
+        <input type="text" class="typing-input" maxlength="1" />
+        <div class="inputs"></div>
+        <div class="details">
+          <p class="hint">hint : <span></span></p>
+          <p class="guess-left">Remainig : <span>10</span></p>
+          <p class="wrong-letter">wrong letter : <span></span></p>
+        </div>
+        <button class="reset-btn">Reset Game</button>
+      </div>
+    </div>
+
+    <script src="../gameWord/javascript/word.js"></script>
+    <script src="../gameWord/javascript/script.js"></script>
   </body>
 </html>
