@@ -9,9 +9,32 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
     />
-    <link rel="stylesheet" href="" />
+    <link rel="stylesheet" href="../Clock/style.css" />
   </head>
   <body>
-    <script src=""></script>
+    <div class="wrapper">
+      <img src="./clock.png" alt="clock" />
+      <h1></h1>
+      <div class="content">
+        <div class="column">
+          <select>
+            <option value="Hour" selected hidden>Hour</option>
+          </select>
+        </div>
+        <div class="column">
+          <select>
+            <option value="Minute" selected hidden>Minute</option>
+          </select>
+        </div>
+        <div class="column">
+          <select>
+            <option value="" selected hidden>AM/PM</option>
+          </select>
+        </div>
+      </div>
+      <button>set Alarm</button>
+    </div>
+
+    <script src="../Clock/javascript/script.js"></script>
   </body>
 </html>
