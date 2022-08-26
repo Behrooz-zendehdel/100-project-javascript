@@ -24,3 +24,4 @@ txtInput.addEventListener("keyup", () => {
 
   checkBtn.classList.remove("active");
 });
+//مشکلی که داشت و باگ داشت این بود که دوبار فیلتر رو صدا زده بود یعنی دوبار داشت با یک اسم یکسان تعریف میکرد که برطرف شد
